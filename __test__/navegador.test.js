@@ -28,7 +28,7 @@ describe('Mi primer test en puppeter', () => {
         await page.goto('https://github.com')
 
         // navegación a página anterior
-        await page.gBack()
+        await page.goBack()
         await new Promise((resolve) => setTimeout(resolve, 3000))
 
         // navegar hacia adelante
